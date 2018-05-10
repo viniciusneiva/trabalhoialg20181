@@ -16,7 +16,7 @@ Personagem de desenho animado
 int main(){
     cout << setw(53) << "PERSONAGENS DE DESENHO ANIMADO" << "\n\n";
     cout << setw(45) << "###############" << endl << setw(45) <<"##           ##" << endl << setw(45) << "##   MENU    ##" << endl << setw(45) << "##           ##" << endl << setw(45) << "###############" << "\n\n";
-    cout << "Digite o numero da opcao que deseja executar: " << "\n\n" << "1. Incluir" << setw(15) << "2. Excluir" << setw(15) << "3. Listar" << setw(15) << "4. Alterar" << setw(15) << "5. Sair" << "\n\n";
+    cout << "Digite o numero da opcao que deseja executar: " << "\n\n" << "1. Incluir" << setw(15) << "2. Excluir" << setw(14) << "3. Listar" << setw(15) << "4. Alterar" << setw(12) << "5. Sair" << "\n\n";
     int menu;
     cin >> menu;
     switch (menu)
