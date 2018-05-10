@@ -37,7 +37,7 @@ int main(){
         cout << "Sair: ";
         break;
     default:
-        cout << "Invalido!";
+        cout << "Comando  invalido!";
         break;
     }
 
