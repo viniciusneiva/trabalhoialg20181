@@ -29,7 +29,7 @@ int main(){
     //bool excluir = false;
 
 	int tam = 0; 	// variável do indice personagem a ser preenchido
-	while (menu != 5){		//Enquanto o usuário não comanda pra sair vai realizando as tarefas pedidas e no final é pedido outro menu.
+	while (menu != 5){		//Enquanto o usuário não comanda pra sair vai realizando as tarefas pedidas e no final é pedido outro menu.Removi o case 5 do switch pois se tornou desnecessário.
 
     switch (menu)
     {
@@ -59,9 +59,6 @@ int main(){
         break;
     case 4:
         cout << "Alterar: ";
-        break;
-    case 5:
-        cout << "Sair: ";
         break;
     default:
         cout << "Comando invalido!";
